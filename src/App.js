@@ -57,7 +57,7 @@ function App() {
         <Person name="Rake khan" job="SQL Eng"></Person>
         <Person name="Rake khan" job="Banker"></Person>
         <Person name="Rake khan" job="Web Developer"></Person>
-        <Person name="Rake khan" job="SQL Eng"></Person>
+        <Person name="Rake khan" job="Data Science Eng:"></Person>
       </header>
     </div>
   );
@@ -126,7 +126,8 @@ function Product(props) {
 // single property pass
 function Person(props) {
   const personStyle = {
-    border: "2px solid yellow",
+    backgroundColor: "skyblue",
+    border: "4px solid yellow",
     margin: "10px",
     borderRadius: "10px",
     padding: "10px",
